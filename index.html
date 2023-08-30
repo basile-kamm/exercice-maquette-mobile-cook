@@ -10,22 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header id="home">
       <nav>
-        <a href="">Home</a>
-        <a href="">Recipes</a>
-        <a href="">About</a>
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#about">About</a>
       </nav>
     </header>
     <main>
       <div class="main_recipe">
         <img src="img/granola.jpg" alt="Granola">
-        <p class="recipe_day">Recipe of the day</p>
-        <h1>Cherry-Almond Granola Crisp</h1>
-        <p>Eat this simple, juicy dish for breakfast or dessert.</p>
-        <p>Jerelle Guy</p>
+        <div class="main_recipe_text">
+          <p class="recipe_day">Recipe of the day</p>
+          <h1>Cherry-Almond Granola Crisp</h1>
+          <p class="recipe_description">Eat this simple, juicy dish for breakfast or dessert.</p>
+          <p class="recipe_author">Jerelle Guy</p>
+        </div>
       </div>
-      <div class="week_recipes">
+      <div class="week_recipes" id="recipes">
         <h2>What to cook this week</h2>
         <div class="recipes">
           <img src="img/filipino_recipes.jpg" alt="Filipino Recipes">
@@ -37,7 +39,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="about">
       <h2>Learn More</h2>
       <a href="">Our cook</a>
       <a href="">See Our Features</a>
